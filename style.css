@@ -1,0 +1,215 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+body.home{
+	background-image: url(pict/sepokatdapse.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100px;
+  font-family: 'Roboto', sans-serif;
+	}
+header{
+	background-color: #696969;
+  width: 100%;
+  position: relative;
+  margin-top: 10 0;
+}
+ul{
+
+	margin: 10px auto;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+li{ color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width:80px;
+  padding: 10px 10px;
+
+}
+.line{
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: black;
+  font-size: 14px;
+  font-weight: 200;}
+
+.content{
+	
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+.content h1{
+	border: 3px solid black;
+	position: relative;
+	width:450px;
+	margin: 0 auto;
+	padding-left: 20px;
+	background-color: white;
+}
+#main{
+	position: relative;
+	margin: 0px auto;
+	padding:10px;
+	text-align: center;
+	width: 1000px;
+	height: 130px;
+	overflow: scroll;
+}
+
+.sosmed{
+	position: absolute;
+	top:8px;
+	right: 8px;
+	border-radius: 3px;
+	margin: 10px ;
+	padding:15px;
+  letter-spacing: 10px;
+}
+
+.sosmed img{
+	height:30px;
+}
+.header{
+  background-image: url("pict/shoes.jpg");
+  background-position: center;
+  background-size: cover;
+  height:320px;
+}
+.header h1{
+  background-color: #8B4513;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 20px;
+}
+.header2{
+  background-image: url("pict/ori.jpg");
+  background-position: center;
+  background-size: cover;
+  height:320px;
+}
+.header2 h1{
+  background-color: #8B4513;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 20px;
+}
+.body p {
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+.body a{
+	text-decoration: none;
+}
+.button {
+  border-radius: 4px;
+  color: #D2691E;
+  display: block;
+  font-weight: 500;
+  width: 100px;
+  padding: 20px 20px;
+  margin: 40px auto;
+  border: 1px solid #8B4513;
+}
+.button:hover {
+  background-color: #8B4513;
+  border: 1px solid #8B4513;
+  color: #FFF;
+}
+ul.service {
+  padding: 20px;
+  }
+ul.service li {
+  display: inline-block;
+  background-color: #8B4513;
+  list-style: none;
+  width:200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+}
+.service .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#gameboard {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+.card {
+  
+  border: 2px solid #9DD1F1;
+  display: inline-block;
+  height: 200px;
+  margin-top: 4px;
+  padding: 30px auto;
+  text-align: center;
+  width: 215px;
+}
+
+.card:hover {
+  background-color: #004E89;
+  border-color: #004E89;
+}
+
+.card img {
+  padding-top: 40px;
+}
+.gallery{
+  margin-top: 20px;
+  margin-left:50px;
+  border:1px solid #ccc;
+  float: left ;
+  width: 250px;
+
+
+}
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+.desc {
+  padding: 5px;
+  text-align: center;
+}
+.descdown {
+  text-align: center;
+  
+  top: 20px;
+}
